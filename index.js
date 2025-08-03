@@ -16,6 +16,9 @@ const port = process.env.PORT;
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3000/',
+  'https://heartfelt-praline-83b1d4.netlify.app/login',
+  "https://heartfelt-praline-83b1d4.netlify.app/",
+  "https://heartfelt-praline-83b1d4.netlify.app"
 ];
 
 app.use(cors({
